@@ -1,0 +1,54 @@
+@import "include/reset";
+@import "include/common";
+@import "include/header";
+@import "include/contact_part";
+@import "include/footer_nav";
+@import "include/footer";
+
+div.mv {
+    width: 100vw;
+    height: 100vh;
+    .slide-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        .slide-item {
+            opacity: 0;
+            transform: scale(1);
+            transition: opacity 2s linear, transform 7.5s linear;
+            position: relative;
+            &:not(:first-child) {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            &.show {
+                opacity: 1;
+            }
+            &.zoom {
+                transform: scale(1.2);
+            }
+            width: 100vw;
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            @include mq(tb) {
+                width: 100vw;
+            }
+            &:nth-child(1) {
+                background-image: url('../images/top_mv_photo01.jpg');
+            }
+            &:nth-child(2) {
+                background-image: url('../images/top_mv_photo02.jpg');
+            }
+            &:nth-child(3) {
+                background-image: url('../images/top_mv_photo03.jpg');
+            }
+            &:nth-child(4) {
+                background-image: url('../images/top_mv_photo04.jpg');
+            }
+        }
+    }
+}

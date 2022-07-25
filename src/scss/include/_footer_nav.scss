@@ -1,0 +1,127 @@
+nav.footer-nav {
+    width: 100vw;
+    background-color: #000;
+    @include mq(tb) {
+        padding: 0 8vw;
+    }
+    .inner {
+        width: 1250px;
+        margin: 0 auto;
+        padding: 80px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        border-top: 1px solid #333;
+        @include mq(tb) {
+            width: 100%;
+            padding: 8vw 0;
+            display: block;
+        }
+        .address {
+            width: 400px;
+            @include mq(tb) {
+                width: 100%;
+            }
+            a {
+                width: 224px;
+                color: #afafaf;
+                font-size: 15px;
+                font-weight: 600;
+                color: $color_dining;
+                @include mq(tb) {
+                    width: 80vw;
+                    display: block;
+                    font-size: 1.87vw;
+                    text-align: center;
+                    // font-size: clamp(12px, 3.2vw, 16px);
+                }
+                img {
+                    padding: 1em 0 2em;
+                    width: 224px;
+                    @include mq(tb) {
+                        display: block;
+                        width: 35.73vw;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .text {
+                color: #afafaf;
+                font-family: 'Shippori Mincho B1', serif;
+                @include mq(tb) {
+                    text-align: center;
+                    margin-bottom: 1.5em;
+                }
+                h3 {
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-bottom: 1.5em;
+                    letter-spacing: .2em;
+                    @include mq(tb) {
+                        font-size: 4.27vw;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-bottom: .5em;
+                    @include mq(tb) {
+                        font-size: 4.27vw;
+                    }
+                }
+            }
+        }
+        .menu {
+            @include mq(tb) {
+                display: none;
+            }
+            ul {
+                li {
+                    margin-bottom: 1em;
+                    a {
+                        font-family: 'Shippori Mincho B1', serif;
+                        color: #afafaf;
+                        font-size: 16px;
+                        letter-spacing: .2em;
+                        transition: .5s;
+                        &:hover {
+                            opacity: .5;
+                        }
+                    }
+                }
+            }
+        }
+        .links {
+            display: flex;
+            align-items: center;
+            width: 310px;
+            justify-content: space-between;
+            @include mq(tb) {
+                width: 100%;
+                justify-content: space-around;
+            }
+            a:nth-of-type(1) {
+                img {
+                    width: 127px;
+                    @include mq(tb) {
+                        width: 25.33vw;
+                    }
+                }
+            }
+            a:nth-of-type(2) {
+                img {
+                    width: 107px;
+                    @include mq(tb) {
+                        width: 21.33vw;
+                    }
+                }
+            }
+            a {
+                transition: .5s;
+                &:hover {
+                    opacity: .5;
+                }
+            }
+        }
+    }
+}
