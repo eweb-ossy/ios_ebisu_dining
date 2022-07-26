@@ -382,6 +382,23 @@ section.restaurant {
             display: flex;
             flex-direction: row-reverse;
             align-items: baseline;
+            &::after {
+                content: '';
+                position: absolute;
+                width: 56px;
+                height: 41px;
+                background-image: url('../images/img_text_wrap.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                top: -20px;
+                right: -65px;
+                @include mq(tb) {
+                    width: 8.8vw;
+                    height: calc(8.8vw * 0.727);
+                    top: -1em;
+                    right: -9vw;
+                }
+            }
             p {
                 font-family: 'Shippori Mincho B1', serif;
                 writing-mode: vertical-rl;
