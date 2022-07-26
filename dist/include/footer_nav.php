@@ -11,7 +11,7 @@
         <div class="menu">
             <ul>
                 <li><a href="restaurants.html">店舗情報</a></li>
-                <li><a href="">会社情報</a></li>
+                <li><a href="corporate_profile.html">会社情報</a></li>
                 <li><a href="">採用情報</a></li>
                 <li><a href="">お知らせ</a></li>
             </ul>

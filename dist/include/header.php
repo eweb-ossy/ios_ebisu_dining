@@ -1,3 +1,4 @@
+<?php if (! isset($page)) { $page = "";} ?>
 <header class="header <?= $page === 'top' ? $page : 'fixed' ?>">
     <div class="inner">
         <a href="" class="header-logo">EBISU DINING</a>
@@ -5,7 +6,7 @@
             <ul>
                 <li class="for-tb"><a class="" href="">TOP</a></li>
                 <li><a class="<?= $page === 'restaurants' ? 'active' : '' ?>" href="restaurants.html">店舗情報</a></li>
-                <li><a class="" href="">会社情報</a></li>
+                <li><a class="<?= $page === 'corporate_profile' ? 'active' : '' ?>" href="corporate_profile.html">会社情報</a></li>
                 <li><a class="" href="">採用情報</a></li>
                 <li><a class="" href="">お知らせ</a></li>
                 <li class="for-pc"><a href="">お問い合わせ</a></li>
