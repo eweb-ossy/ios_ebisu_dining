@@ -1,4 +1,4 @@
-<header class="header top fixed on">
+<header class="header top">
     <div class="inner">
         <a href="" class="header-logo">EBISU DINING</a>
         <nav class="header-nav active">
@@ -11,8 +11,9 @@
                 <li class="for-pc"><a href="">お問い合わせ</a></li>
             </ul>
             <div class="for-tb">
-                <?php require('include/footer_nav.php'); ?>
-                <?php require('include/contact_part.php'); ?>
+                <?php $path = dirname(__FILE__); ?>
+                <?php require($path . '/footer_nav.php'); ?>
+                <?php require($path . '/contact_part.php'); ?>
             </div>
         </nav>
         <div class="header-nav-btn">

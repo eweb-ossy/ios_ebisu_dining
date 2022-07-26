@@ -8,6 +8,7 @@
 div.mv {
     width: 100vw;
     height: 100vh;
+    position: relative;
     .slide-wrap {
         position: absolute;
         top: 0;
@@ -48,6 +49,532 @@ div.mv {
             }
             &:nth-child(4) {
                 background-image: url('../images/top_mv_photo04.jpg');
+            }
+        }
+    }
+    .mv-heading {
+        position: absolute;
+        left: 60px;
+        bottom: 90px;
+        font-family: 'Shippori Mincho B1', serif;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include mq(tb) {
+            width: 100vw;
+            padding: 8vw;
+            left: 0;
+            bottom: 0;
+        }
+        .logo {
+            text-align: center;
+            font-size: 15px;
+            font-weight: 400;
+            letter-spacing: 0.2em;
+            @include mq(tb) {
+                font-size: 2.4vw;
+                font-size: clamp(9px, 2.4vw, 15px);
+            }
+            img {
+                margin-top: 1em;
+                display: block;
+                width: 510px;
+                @include mq(tb) {
+                    width: 84vw;
+                    max-width: 510px;
+                }
+            }
+        }
+        .text {
+            font-size: 35px; 
+            font-weight: 400;
+            line-height: 1.8;
+            margin-top: 1em;
+            @include mq(tb) {
+                font-size: 5.6vw;
+                font-size: clamp(21px, 5.6vw, 35px);
+            }
+        }
+    }
+    .mv-scroll {
+        position: absolute;
+        font-family: 'Shippori Mincho B1', serif;
+        width: 60px;
+        height: 193px;
+        background-color: #fff;
+        right: 0;
+        bottom: 0;
+        writing-mode: vertical-rl;
+        font-size: 14px;
+        padding-top: 25px;
+        display: flex;
+        align-items: center;
+        background-image: url('../images/top_mv_scroll.svg');
+        background-repeat: no-repeat;
+        background-size: 6px;
+        background-position-x: 27px;
+        background-position-y: 80px;
+        cursor: pointer;
+        @include mq(tb) {
+            display: none;
+        }
+    }
+}
+
+// section info 
+section.info {
+    width: 100vw;
+    padding: 90px 0;
+    @include mq(tb) {
+        padding: 24vw 8vw;
+    }
+    .inner {
+        text-align: center;
+        @include mq(tb) {
+            width: 100%;
+        }
+        .lead {
+            font-family: 'Shippori Mincho B1', serif;
+            font-size: 17px;
+            font-weight: 400;
+            margin-bottom: 1.5em;
+            line-height: 1.8;
+            @include mq(tb) {
+                font-size: 3.47vw;
+                font-size: clamp(13px, 3.47vw, 17px);
+            }
+        }
+        .logo {
+            width: 500px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 600;
+            color: $color_dining;
+            letter-spacing: .1em;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @include mq(tb) {
+                width: 100%;
+                font-size: 4vw;
+                font-size: clamp(15px, 4vw, 22px);
+            }
+            img {
+                margin-top: 1em;
+                width: 366px;
+                display: block;
+                @include mq(tb) {
+                    width: 60.26vw;
+                }
+            }
+        }
+    }
+}
+
+// section concept 
+section.concept {
+    width: 100vw;
+    padding: 90px 0 180px;
+    @include mq(tb) {
+        padding: 24vw 0 40vw;
+    }
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        position: relative;
+        font-family: 'Shippori Mincho B1', serif;
+        display: flex;
+        justify-content: space-between;
+        @include mq(tb) {
+            width: 100%;
+            padding: 0 8vw;
+            display: block;
+        }
+        h3 {
+            position: absolute;
+            font-size: 29px;
+            font-weight: 400;
+            color: $color_dining;
+            writing-mode: vertical-rl;
+            left: -100px;
+            top: 0;
+            @include mq(tb) {
+                font-size: 3.47vw;
+                font-size: clamp(13px, 3.47vw, 29px);
+                left: 8vw;
+            }
+        }
+        h4 {
+            font-size: 43px;
+            font-weight: 400;
+            line-height: 1.8;
+            @include mq(tb) {
+                font-size: 6.67vw;
+                font-size: clamp(25px, 6.67vw, 43px);
+                padding: 1.5em 1em;
+            }
+        }
+        p {
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 2;
+            width: 520px;
+            @include mq(tb) {
+                width: 100%;
+                padding: 0 1em;
+                font-size: 4.27vw;
+                font-size: clamp(16px, 4.27vw, 17px);
+            }
+        }
+    }
+}
+
+// section news 
+section.news {
+    background-image: url('../images/bg01.png');
+    @include mq(tb) {
+        padding: 24vw 0 40vw;
+    }
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        padding: 110px 0;
+        position: relative;
+        font-family: 'Shippori Mincho B1', serif;
+        display: flex;
+        justify-content: space-between;
+        @include mq(tb) {
+            width: 100%;
+            padding: 0 8vw;
+            display: block;
+        }
+        h3 {
+            position: absolute;
+            font-size: 29px;
+            font-weight: 400;
+            color: $color_dining;
+            writing-mode: vertical-rl;
+            left: -100px;
+            top: -1em;
+            @include mq(tb) {
+                font-size: 3.47vw;
+                font-size: clamp(13px, 3.47vw, 29px);
+                left: 8vw;
+                top: calc(-2em - 24vw);
+            }
+        }
+        .title {
+            h4 {
+                font-family: 'Shippori Mincho B1', serif;
+                font-weight: 400;
+                font-size: 37px;
+                margin-bottom: 1em;
+                @include mq(tb) {
+                    font-size: 7.47vw;
+                    font-size: clamp(28px, 7.47vw, 37px);
+                    padding-left: 8vw;
+                }
+            }
+        }
+        .news-list {
+            width: 858px;
+            @include mq(tb) {
+                width: 100%;
+                padding-left: 8vw;
+            }
+            .news-block {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                padding: 2em 1em;
+                border-bottom: 1px solid #d5d5d5;
+                font-family: 'Shippori Mincho B1', serif;
+                font-weight: 400;
+                transition: .5s;
+                &:hover {
+                    background-color: rgb(255 255 255 / 50%);
+                }
+                @include mq(tb) {
+                    display: block;
+                    padding: 1em 0;
+                }
+                &:first-child {
+                    border-top: 1px solid #d5d5d5;
+                }
+                .date {
+                    display: inline;
+                    font-size: 13px;
+                    margin-right: 2em;
+                    color: #666666;
+                    @include mq(tb) {
+                        display: block;
+                        margin-bottom: .5em;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+        .link {
+            padding-right: 45px;
+            margin-top: 8vw;
+            text-align: right;
+        }
+    }
+}
+
+// section restaurant 
+section.restaurant {
+    width: 100vw;
+    height: 1224px;
+    margin-top: 120px;
+    position: relative;
+    background-image: url('../images/bg01.png');
+    @include mq(tb) {
+        margin-top: 40vw;
+    }
+    .bg-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 584px;
+        background-image: url('../images/top_restaurant_bg01.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @include mq(tb) {
+            width: 100%;
+            height: 58.66vw;
+        }
+    }
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        position: relative;
+        @include mq(tb) {
+            width: 100%;
+            padding: 0 8vw;
+        }
+        h3 {
+            position: absolute;
+            font-family: 'Shippori Mincho B1', serif;
+            font-size: 29px;
+            font-weight: 400;
+            color: $color_dining;
+            writing-mode: vertical-rl;
+            left: -100px;
+            top: -1em;
+            @include mq(tb) {
+                font-size: 3.47vw;
+                font-size: clamp(13px, 3.47vw, 29px);
+                left: 8vw;
+                top: -3em;
+            }
+        }
+        .catch-text {
+            position: absolute;
+            top: 300px;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: baseline;
+            p {
+                font-family: 'Shippori Mincho B1', serif;
+                writing-mode: vertical-rl;
+                font-size: 32px;
+                padding: 0.2em;
+                font-weight: 400;
+                background-color: #fff;
+                margin: 0.2em;
+                display: inline-block;
+                @include mq(tb) {
+                    font-size: 5.07vw;
+                    font-size: clamp(19px, 5.07vw, 32px);
+                }
+            }
+        }
+        .image {
+            position: absolute;
+            background-color: #fff;
+            width: 838px;
+            height: 550px;
+            overflow: hidden;
+            top: 500px;
+            box-shadow: 0px 5px 25px 0px rgba(171, 171, 171, 0.35);
+            img {
+                width: 100%;
+            }
+        }
+        .logo {
+            position: absolute;
+            width: 328px;
+            top: 813px;
+            img {
+                width: 100%;
+            }
+        }
+        .link {
+            position: absolute;
+            top: 1023px;
+        }
+    }
+    &.manten {
+        .bg-img {
+            background-image: url('../images/top_restaurant_bg01.jpg');
+        }
+        .inner {
+            .catch-text {
+                left: 50px;
+                @include mq(tb) {
+                    top: calc(58.66vw / 3);
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                }
+            }
+            .image {
+                right: -130px;
+                @include mq(tb) {
+                    width: 84vw;
+                    left: 8vw;
+                    right: initial;
+                    height: calc(84vw * 0.66);
+                }
+            }
+            .logo {
+                width: 328px;
+                left: -23px;
+                @include mq(tb) {
+                    left: 50%;
+                    right: initial;
+                    transform: translate(-50%, 0);
+                    width: 62.93vw;
+                }
+            }
+            .link {
+                top: 1023px;
+                left: 45px;
+                @include mq(tb) {
+                    left: 50%;
+                    right: initial;
+                    transform: translate(-50%, 0);
+                }
+            }
+        }
+    }
+    &.gyusui {
+        .bg-img {
+            background-image: url('../images/top_restaurant_bg02.jpg');
+        }
+        .inner {
+            .catch-text {
+                right: 50px;
+                @include mq(tb) {
+                    top: calc(58.66vw / 3);
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                }
+            }
+            .image {
+                left: -130px;
+                @include mq(tb) {
+                    width: 84vw;
+                    left: 8vw;
+                    right: initial;
+                    height: calc(84vw * 0.66);
+                }
+            }
+            .logo {
+                width: 328px;
+                right: -23px;
+                @include mq(tb) {
+                    left: 50%;
+                    right: initial;
+                    transform: translate(-50%, 0);
+                    width: 62.93vw;
+                }
+            }
+            .link {
+                top: 1100px;
+                right: 45px;
+                @include mq(tb) {
+                    left: 50%;
+                    right: initial;
+                    transform: translate(-50%, 0);
+                }
+            }
+        }
+    }
+}
+
+// section meet 
+section.meet {
+    background-color: #fff;
+    width: 100vw;
+    padding: 90px 0;
+    @include mq(tb) {
+        padding: 40vw 0;
+    }
+    .inner {
+        width: 1460px;
+        height: 727px;
+        margin: 0 auto;
+        background-image: url('../images/top_meet_bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        @include mq(tb) {
+            width: 92vw;
+            height: calc(92vw * 0.9);
+            background-size: cover;
+        }
+        h3 {
+            position: absolute;
+            font-family: 'Shippori Mincho B1', serif;
+            writing-mode: vertical-rl;
+            font-size: 89px;
+            top: 0;
+            right: 10px;
+            color: #fff;
+            @include mq(tb) {
+                font-size: 7.73vw;
+                font-size: clamp(29px, 7.73vw, 89px);
+            }
+        }
+        .logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 745px;
+            @include mq(tb) {
+                width: 50.13vw;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        p {
+            position: absolute;
+            font-family: 'Shippori Mincho B1', serif;
+            writing-mode: vertical-rl;
+            font-size: 23px;
+            top: 50%;
+            left: 70px;
+            transform: translate(0, -50%);
+            color: #fff;
+            line-height: 2;
+            @include mq(tb) {
+                left: 0;
+                top: initial;
+                transform: none;
+                bottom: 0;
+                font-size: 2.67vw;
+                font-size: clamp(10px, 2.67vw, 23px);
             }
         }
     }
