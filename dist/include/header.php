@@ -1,10 +1,10 @@
-<header class="header top">
+<header class="header <?= $page === 'top' ? $page : 'fixed' ?>">
     <div class="inner">
         <a href="" class="header-logo">EBISU DINING</a>
         <nav class="header-nav active">
             <ul>
                 <li class="for-tb"><a class="" href="">TOP</a></li>
-                <li><a class="" href="">店舗情報</a></li>
+                <li><a class="<?= $page === 'restaurants' ? 'active' : '' ?>" href="restaurants.html">店舗情報</a></li>
                 <li><a class="" href="">会社情報</a></li>
                 <li><a class="" href="">採用情報</a></li>
                 <li><a class="" href="">お知らせ</a></li>

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/index.css?<?= time() ?>">
 </head>
 <body>
-    <?php require('include/header.php'); ?>
+    <?php $page="top"; require('include/header.php'); ?>
     <div class="mv">
         <ul id="mv_slide" class="slide-wrap">
             <li class="slide-item"></li>

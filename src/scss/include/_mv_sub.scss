@@ -1,0 +1,71 @@
+div.mv-sub {
+    width: 100vw;
+    margin-top: 100px;
+    padding: 75px 0;
+    .inner {
+        width: 1100px;
+        height:  calc(( 1100px + ((100vw - 1100px) / 2 )) * 0.423 );
+        margin: 0 auto;
+        position: relative;
+        @include mq(tb) {
+            width: 100%;
+        }
+        .image {
+            background-color: #ccc;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: calc( 1100px + ((100vw - 1100px) / 2 ));
+            height:  calc(( 1100px + ((100vw - 1100px) / 2 )) * 0.423 );
+            @include mq(tb) {
+                left: 8vw;
+                width: 92vw;
+                height: calc(92vw * 0.5714);
+            }
+            img {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%, 0);
+                width: 100%;
+                object-fit: cover;
+                height: calc(92vw * 0.5714);
+            }
+        }
+        h2 {
+            position: absolute;
+            top: -80px;
+            left: -90px;
+            width: 175px;
+            min-height: 320px;
+            padding: 10px 35px 10px 20px;
+            background-color: #fff;
+            font-family: 'Shippori Mincho B1', serif;
+            writing-mode: vertical-rl;
+            font-size: 49px;
+            font-weight: 400;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            @include mq(tb) {
+                font-size: 7.73vw;
+                font-size: clamp(29px, 7.73vw, 49px);
+                top: -0.5em;
+                left: 0;
+                padding: 0 8vw;
+                min-height: calc(92vw * 0.5714);
+            }
+            span {
+                display: block;
+                font-size: 23px;
+                color: $color_dining;
+                @include mq(tb) {
+                    font-size: 3.73vw;
+                    font-size: clamp(14px, 3.73vw, 23px);
+                }
+            }
+        }
+    }
+}
