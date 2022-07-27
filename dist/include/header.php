@@ -8,7 +8,7 @@
                 <li><a class="<?= $page === 'restaurants' ? 'active' : '' ?>" href="restaurants.html">店舗情報</a></li>
                 <li><a class="<?= $page === 'corporate_profile' ? 'active' : '' ?>" href="corporate_profile.html">会社情報</a></li>
                 <li><a class="" href="">採用情報</a></li>
-                <li><a class="" href="">お知らせ</a></li>
+                <li><a class=""<?= $page === 'news' ? 'active' : '' ?>" href="news.html">お知らせ</a></li>
                 <li class="for-pc"><a href="">お問い合わせ</a></li>
             </ul>
             <div class="for-tb">

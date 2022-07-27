@@ -25,63 +25,63 @@
     <section>
         <div class="inner">
             <div class="content">
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>
-                <a href="" class="news-block">
+                <a href="news_detail.html" class="news-block">
                     <div class="news-date">2022.00.00</div>
                     <div class="news-body">お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</div>
                 </a>

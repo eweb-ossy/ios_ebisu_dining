@@ -40,24 +40,24 @@
             <h3>News & Topics</h3>
             <div class="title">
                 <h4>お知らせ</h4>
-                <a class="link-arrow for-pc" href="">一覧をみる</a>
+                <a class="link-arrow for-pc" href="news.html">一覧をみる</a>
             </div>
             <div class="news-list">
-                <a class="news-block" href="">
+                <a class="news-block" href="news_detail.html">
                     <div class="date">2022.00.00</div>
                     <p>お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</p>
                 </a>
-                <a class="news-block" href="">
+                <a class="news-block" href="news_detail.html">
                     <div class="date">2022.00.00</div>
                     <p>お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</p>
                 </a>
-                <a class="news-block" href="">
+                <a class="news-block" href="news_detail.html">
                     <div class="date">2022.00.00</div>
                     <p>お知らせ入りますタイトルが入りますお知らせ入りますタイトルが入ります</p>
                 </a>
             </div>
             <div class="link for-tb">
-                <a class="link-arrow" href="">一覧をみる</a>
+                <a class="link-arrow" href="news.html">一覧をみる</a>
             </div>
         </div>
     </section>
