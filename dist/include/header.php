@@ -8,8 +8,8 @@
                 <li><a class="<?= $page === 'restaurants' ? 'active' : '' ?>" href="restaurants.html">店舗情報</a></li>
                 <li><a class="<?= $page === 'corporate_profile' ? 'active' : '' ?>" href="corporate_profile.html">会社情報</a></li>
                 <li><a class="" href="">採用情報</a></li>
-                <li><a class=""<?= $page === 'news' ? 'active' : '' ?>" href="news.html">お知らせ</a></li>
-                <li class="for-pc"><a href="">お問い合わせ</a></li>
+                <li><a class="<?= $page === 'news' ? 'active' : '' ?>" href="news.html">お知らせ</a></li>
+                <li class="for-pc "<?= $page === 'contact' ? 'active' : '' ?>"><a href="contact.html">お問い合わせ</a></li>
             </ul>
             <div class="for-tb">
                 <?php $path = dirname(__FILE__); ?>
