@@ -141,3 +141,41 @@ img {
         transition: .5s;
     }
 }
+
+.manten-heading {
+    text-align: center;
+    display: block;
+    font-family: 'Shippori Mincho B1', serif;
+    font-weight: 400;
+    font-size: 42px;
+    position: relative;
+    @include mq(tb) {
+        font-size: 8vw;
+        font-size: clamp(30px, 8vw, 42px);
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 90px;
+        height: 5px;
+        background-image: url('../images/line02.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: 1.5em;
+        left: 50%;
+        transform: translate(-50%, 0);
+        @include mq(tb) {
+            width: 16.8vw;
+            height: calc(16.8vw * 0.0555);
+        }
+    }
+    span {
+        margin-top: 2em;
+        display: block;
+        font-size: 14px;
+        @include mq(tb) {
+            font-size: 2.67vw;
+            font-size: clamp(10px, 2.67vw, 14px);
+        }
+    }
+}

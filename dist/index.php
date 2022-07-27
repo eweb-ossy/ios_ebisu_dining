@@ -77,7 +77,7 @@
                 <img src="images/logo_manten.png" alt="ご馳走ダイニング 満てん">
             </div>
             <div class="link">
-                <a class="link-arrow2" href="">店舗ページはこちら</a>
+                <a class="link-arrow2" href="manten_top.html">店舗ページはこちら</a>
             </div>
         </div>
     </section>

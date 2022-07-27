@@ -17,7 +17,7 @@
             </ul>
         </div>
         <div class="links">
-            <a href=""><img src="images/footer_nav_logo_manten.png" alt=""></a>
+            <a href="manten_top.html"><img src="images/footer_nav_logo_manten.png" alt=""></a>
             <a href=""><img src="images/footer_nav_logo_gyuiki.png" alt=""></a>
         </div>
     </div>

@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="link">
-                    <a class="link-arrow2" href="">店舗ページはこちら</a>
+                    <a class="link-arrow2" href="manten_top.html">店舗ページはこちら</a>
                 </div>
             </div>
             <div class="info-text">
